@@ -1,0 +1,32 @@
+//DB名testdbのデータベース作成
+CREATE DATABASE tested;
+
+//テーブル名bbsのテーブル作成
+CREATE TABLE bbs(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(255) NOT NULL,
+body TEXT NOT NULL,
+date DATETIME NOT NULL,
+pass CHAR(4) NOT NULL
+)DEFAULT CHARACTER SET=utf8;
+
+//ユーザー権限を付与したユーザーtestuserを作成
+GRANT ALL ON testdb.*'testuser'@'localhost'
+IDENTIFIED BY 'password';
+
+FLUSH PRIVILEGES;
+
+//テーブル名usersのテーブル作成
+CREATE TABLE users(
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+    )DEFAULT CHARACTER SET=utf8;
+    
+//テーブル名profilesのテーブル作成
+  CREATE TABLE profiles (
+      id   INT PRIMARY KEY NOT NULL, 
+      name VARCHAR(50) NOT NULL,
+      body TEXT NOT NULL,
+      mail VARCHAR(255) NOT NULL
+  )DEFAULT CHARACTER SET=utf8;
