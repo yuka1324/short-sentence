@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-image: url("https://pictkan.com/uploads/converted/15/07/05/657129176-floor-768828_(1)-ADpO-1920x1280-MM-100.jpg");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  color: black;
+}
+
+.register-wrapper {
+  padding: 180px 0 100px 0;
+  color: white;
+}
+
+.login-wrapper {
+  padding: 180px 0 100px 0;
+  color: #FFFFFF;
+}
+
+.home-wrapper {
+  color: #FFFFFF;
+}
+
+.home-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+color: #FFFFFF;
+
+}
+
+.login-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.login-wrapper p {
+  font-size: 15px;
+}
+
+.register-wrapper h1 {
+  opacity: 0.6;
+  font-size: 45px;
+  letter-spacing: 10px;
+  position: relative;
+　font-weight: bold; 
+  font-family :Quicksand, sans-serif;
+  top: -100px;
+  left: 15%;
+  color: black;
+}
+
+.register-wrapper h2 {
+  opacity: 0.6;
+  font-size: 15px;
+  letter-spacing: 5px;
+  position: relative;
+　font-weight: bold; 
+  font-family :Quicksand, sans-serif;
+  top: -30px;
+  left: 45%;
+  color: black;
+}
+
+/* btnクラスのCSSを指定してください */
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+
+.kjbn {
+  background-color: #239b76;
+}
+
+.logout {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.users {
+  background-color: #55acee;
+}
+
+/* btn-wrapperクラスのCSSを指定してください */
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+/* btn-wrapperクラスの中にある<p>のCSSを指定してください */
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.form{
+ background-color: white;
+}
+
+.icon-form {
+  float: left;
+  width: 25%;
+}
+
+.icon {
+  position: relative;
+}
+
+.register-form {
+  float: left;
+  width: 25%;
+}
+
+.register {
+  position: relative;
+}
+
+
+
+.register p1{
+  position: relative;
+　font-weight: bold; 
+  font-size: 20px;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: -220px;
+  left: 60%;
+  color: black;
+}
+
+
+.register p2{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: -180px;
+  left: 60%;
+  width: 100%;
+  color: black;
+}
+
+.register p3{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: -140px;
+  left: 60%;
+  width: 100%;
+  color: black;
+}
+
+.register p4{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: -100px;
+  left: 60%;
+  width: 100%;
+  color: black;
+}
+
+.register textarea{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: -70px;
+  left: 60%;
+  width: 100%;
+  color: black;
+}
+
+.register p5{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: 20px;
+  left: 60%;
+  width: 100%;
+  color: black;
+}
+
+.register p6{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: 70px;
+  left: 60%;
+  width: 100%;
+  color: black;
+}
+
+.register p7{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 11px;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: 70px;
+  left: 100%;
+  width: 100%;
+  color: black;
+}
+
+.icon p{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: 32%;
+  left: 55%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.icon p2{
+  position: absolute;
+　font-weight: bold; 
+  font-size: 1.1em;
+  font-family :ヒラギノ丸ゴ ProN;
+  top: 200px;
+  left: 15%;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+
+.icon h1{
+ padding: 180px 0 100px 0;
+  color: black;
+}
+
+
+////////
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
